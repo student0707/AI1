@@ -5,7 +5,7 @@ import pandas as pd
 st.title("Streamlit 기본 예제")
 
 # 서브타이틀
-st.subheader("기본적인 표와 HTML 메시지 생성")
+st.subheader("집가고 싶어요")
 
 # 표 데이터 생성
 data = {
@@ -28,4 +28,4 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # 추가적인 텍스트
-st.write("Streamlit을 활용한 빠른 웹 애플리케이션 개발!")
+st.write("왜 아직 1교시인거죠!")
